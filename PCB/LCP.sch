@@ -1,0 +1,217 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Esp:ESP32 U1
+U 1 1 5D15D0E4
+P 5200 3800
+F 0 "U1" H 5200 4865 50  0000 C CNN
+F 1 "ESP32" H 5200 4774 50  0000 C CNN
+F 2 "ESP32-DEVKIT-V1:ESP32-DEVKIT-V1" H 5200 3950 50  0001 C CNN
+F 3 "" H 5200 3950 50  0001 C CNN
+	1    5200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Esp:MICRO-SD-BOARD U3
+U 1 1 5D15E701
+P 6850 3400
+F 0 "U3" H 7128 3479 50  0000 L CNN
+F 1 "MICRO-SD-BOARD" H 7128 3388 50  0000 L CNN
+F 2 "ESP32-DEVKIT-V1:MICRO-SD-BOARD" H 7150 3650 50  0001 C CNN
+F 3 "" H 7150 3650 50  0001 C CNN
+	1    6850 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 4650 0    50   Input ~ 0
+5V
+Text GLabel 6950 3050 1    50   Input ~ 0
+3V3_1
+Text GLabel 5600 4650 2    50   Input ~ 0
+3V3_2
+Text GLabel 4550 4550 0    50   Input ~ 0
+GND
+Text GLabel 6850 3050 1    50   Input ~ 0
+GND_1
+NoConn ~ 7050 3050
+NoConn ~ 6500 3250
+Text GLabel 6500 4000 0    50   Input ~ 0
+GND
+Text GLabel 6500 4300 0    50   Input ~ 0
+5V
+$Comp
+L MCU_Esp:HX711 U2
+U 1 1 5D15E078
+P 6600 4150
+F 0 "U2" H 6878 4196 50  0000 L CNN
+F 1 "HX711" H 6878 4105 50  0000 L CNN
+F 2 "ESP32-DEVKIT-V1:HX711" H 6600 4150 50  0001 C CNN
+F 3 "" H 6600 4150 50  0001 C CNN
+	1    6600 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 6500 4100 0    50   Input ~ 0
+DT
+Text GLabel 6500 4200 0    50   Input ~ 0
+SCK
+Text GLabel 5600 4150 2    50   Input ~ 0
+SCK
+Text GLabel 5600 4250 2    50   Input ~ 0
+DT
+Text GLabel 6500 3350 0    50   Input ~ 0
+CS_1
+Text GLabel 6500 3450 0    50   Input ~ 0
+DI
+Text GLabel 6500 3550 0    50   Input ~ 0
+DO
+Text GLabel 6500 3650 0    50   Input ~ 0
+CLK
+Text GLabel 5600 3650 2    50   Input ~ 0
+CS_2
+Text GLabel 5600 2950 2    50   Input ~ 0
+DI
+Text GLabel 5600 3450 2    50   Input ~ 0
+DO
+Text GLabel 5600 3550 2    50   Input ~ 0
+CLK
+NoConn ~ 4800 2950
+NoConn ~ 4800 3050
+NoConn ~ 4800 3150
+NoConn ~ 4800 3250
+NoConn ~ 4800 3350
+NoConn ~ 4800 3450
+NoConn ~ 4800 3550
+NoConn ~ 4800 3650
+NoConn ~ 4800 3750
+NoConn ~ 4800 3850
+NoConn ~ 4800 3950
+NoConn ~ 4800 4050
+NoConn ~ 4800 4150
+NoConn ~ 4800 4250
+NoConn ~ 4800 4350
+NoConn ~ 4800 4450
+NoConn ~ 5600 3050
+NoConn ~ 5600 3150
+NoConn ~ 5600 3250
+NoConn ~ 5600 3350
+NoConn ~ 5600 3750
+NoConn ~ 5600 3850
+NoConn ~ 5600 3950
+NoConn ~ 5600 4050
+NoConn ~ 5600 4350
+NoConn ~ 5600 4450
+NoConn ~ 5600 4550
+$Comp
+L Connettori:HEADER-1x01 J1
+U 1 1 5D164CF7
+P 6750 4500
+F 0 "J1" H 6878 4536 60  0000 L CNB
+F 1 "HEADER-1x01" H 6878 4445 40  0000 L CNN
+F 2 "ESP32-DEVKIT-V1:PAD" H 6600 4475 60  0001 C CNN
+F 3 "" H 6700 4575 60  0001 C CNN
+F 4 "-" H 6700 4700 40  0001 L BNN "Part"
+F 5 "Connector" H 6700 4800 40  0001 L BNN "Family"
+	1    6750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connettori:HEADER-1x01 J2
+U 1 1 5D166180
+P 6750 4650
+F 0 "J2" H 6878 4686 60  0000 L CNB
+F 1 "HEADER-1x01" H 6878 4595 40  0000 L CNN
+F 2 "ESP32-DEVKIT-V1:PAD" H 6600 4625 60  0001 C CNN
+F 3 "" H 6700 4725 60  0001 C CNN
+F 4 "-" H 6700 4850 40  0001 L BNN "Part"
+F 5 "Connector" H 6700 4950 40  0001 L BNN "Family"
+	1    6750 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connettori:HEADER-1x01 J3
+U 1 1 5D1662E9
+P 6750 4800
+F 0 "J3" H 6878 4836 60  0000 L CNB
+F 1 "HEADER-1x01" H 6878 4745 40  0000 L CNN
+F 2 "ESP32-DEVKIT-V1:PAD" H 6600 4775 60  0001 C CNN
+F 3 "" H 6700 4875 60  0001 C CNN
+F 4 "-" H 6700 5000 40  0001 L BNN "Part"
+F 5 "Connector" H 6700 5100 40  0001 L BNN "Family"
+	1    6750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connettori:HEADER-1x01 J4
+U 1 1 5D1664C0
+P 6750 4950
+F 0 "J4" H 6878 4986 60  0000 L CNB
+F 1 "HEADER-1x01" H 6878 4895 40  0000 L CNN
+F 2 "ESP32-DEVKIT-V1:PAD" H 6600 4925 60  0001 C CNN
+F 3 "" H 6700 5025 60  0001 C CNN
+F 4 "-" H 6700 5150 40  0001 L BNN "Part"
+F 5 "Connector" H 6700 5250 40  0001 L BNN "Family"
+	1    6750 4950
+	1    0    0    -1  
+$EndComp
+Text GLabel 6600 4500 0    50   Input ~ 0
+3V3_1
+Text GLabel 6600 4650 0    50   Input ~ 0
+3V3_2
+Text GLabel 6600 4800 0    50   Input ~ 0
+GND_1
+Text GLabel 4550 4450 0    50   Input ~ 0
+GND_2
+Wire Wire Line
+	4550 4550 4700 4550
+Wire Wire Line
+	4550 4450 4700 4450
+Wire Wire Line
+	4700 4450 4700 4550
+Connection ~ 4700 4550
+Wire Wire Line
+	4700 4550 4800 4550
+Text GLabel 6600 4950 0    50   Input ~ 0
+GND_2
+$Comp
+L Connettori:HEADER-1x01 J5
+U 1 1 5D1692C2
+P 6750 5100
+F 0 "J5" H 6878 5136 60  0000 L CNB
+F 1 "HEADER-1x01" H 6878 5045 40  0000 L CNN
+F 2 "ESP32-DEVKIT-V1:PAD" H 6600 5075 60  0001 C CNN
+F 3 "" H 6700 5175 60  0001 C CNN
+F 4 "-" H 6700 5300 40  0001 L BNN "Part"
+F 5 "Connector" H 6700 5400 40  0001 L BNN "Family"
+	1    6750 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connettori:HEADER-1x01 J6
+U 1 1 5D1693EA
+P 6750 5250
+F 0 "J6" H 6878 5286 60  0000 L CNB
+F 1 "HEADER-1x01" H 6878 5195 40  0000 L CNN
+F 2 "ESP32-DEVKIT-V1:PAD" H 6600 5225 60  0001 C CNN
+F 3 "" H 6700 5325 60  0001 C CNN
+F 4 "-" H 6700 5450 40  0001 L BNN "Part"
+F 5 "Connector" H 6700 5550 40  0001 L BNN "Family"
+	1    6750 5250
+	1    0    0    -1  
+$EndComp
+Text GLabel 6600 5100 0    50   Input ~ 0
+CS_1
+Text GLabel 6600 5250 0    50   Input ~ 0
+CS_2
+$EndSCHEMATC
